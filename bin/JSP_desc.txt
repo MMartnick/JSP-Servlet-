@@ -1,1 +1,0 @@
-JSP is a Java framework that allows front end web code to work with backend Java code for developing dynamic content. 

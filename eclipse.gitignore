@@ -1,6 +1,7 @@
 .metadata
-Servers/
-bin/
+Servers/*
+bin/*
+build/*
 tmp/
 *.tmp
 *.bak
