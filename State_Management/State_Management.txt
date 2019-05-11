@@ -1,0 +1,10 @@
+
+
+
+Methods - 
+	
+	isNew() : boolean - Returns true if the session is new
+	getId() : String - Returns the session Id
+	invalidate() : void - Invalidates this session and unbinds any object associated with it
+	setMaxInactiveInterval(long mills) : void - Sets the idle time for a session to expire.
+		The value is supplied in milliseconds. 
