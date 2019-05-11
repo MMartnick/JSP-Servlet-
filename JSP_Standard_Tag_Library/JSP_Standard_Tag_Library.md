@@ -3,11 +3,11 @@
 
 ### JSP Standard Tag Library (JSTL) -
 	1. Types of libraries
-	..1. Core - Handles variables, looping, and conditionals
-	..2. Messages Formatting I18N - Handles internationalization and formatting
-	..3. Functions - String manipulation, sizing data collections, etc.
-	..4. XNL - Used to parse and set data
-	..5. SQL - For accessing a database (Usually considered bad practice, typically used for prototyping)
+	  1. Core - Handles variables, looping, and conditionals
+	  2. Messages Formatting I18N - Handles internationalization and formatting
+	  3. Functions - String manipulation, sizing data collections, etc.
+	  4. XNL - Used to parse and set data
+	  5. SQL - For accessing a database (Usually considered bad practice, typically used for prototyping)
 
 		
 
@@ -20,6 +20,6 @@
 	6. Custom Tags are reusable
 
 
-www.luv2code.com/tagtutorial
-www.luv2code.com/jstltutorial
-http://jstl.java.net
+[www.luv2code.com/tagtutorial] - 
+[www.luv2code.com/jstltutorial] - 
+[http://jstl.java.net] 
