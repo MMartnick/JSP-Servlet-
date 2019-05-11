@@ -30,6 +30,8 @@
 	String theItem = request.getParameter("theItem");
 	if (theItem !=null) {
 	items.add(theItem);
+	
+	response.sendRedirect("todo-demo.jsp");
 	}
 	
 %>
