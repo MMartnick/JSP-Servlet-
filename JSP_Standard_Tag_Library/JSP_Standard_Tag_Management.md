@@ -23,11 +23,17 @@
 **Every page that uses the Core tags must include this reference:**
 
 	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+  
+_____________________________________________________________________________
 
 2. **Messages Formatting I18N** - Handles internationalization and formatting
+_____________________________________________________________________________
 3. **Functions** - String manipulation, sizing data collections, etc.
+_____________________________________________________________________________
 4. **XNL** - Used to parse and set data
+_____________________________________________________________________________
 5. **SQL** - For accessing a database (Usually considered bad practice, typically used for prototyping)
+_____________________________________________________________________________
 
 		
 
