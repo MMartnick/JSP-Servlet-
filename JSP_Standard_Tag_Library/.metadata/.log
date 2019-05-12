@@ -48,3 +48,1495 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jdt.core 4 0 2019-05-12 00:39:06.707
 !MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+!SESSION 2019-05-12 12:38:43.411 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 12:39:51.360
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 12:39:51.812
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-12 12:39:53.636
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matth'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2019-05-12 12:45:29.574
+!MESSAGE can not get a buffer without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not get a buffer without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.getBuffer(FileBufferModelManager.java:689)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.getModelPath(JSPTranslator.java:3274)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.writeExternal(JSPTranslator.java:3381)
+	at java.io.ObjectOutputStream.writeExternalData(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslator(JSPTranslatorPersister.java:263)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:147)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:137)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob$1.run(AbstractIndexManager.java:1559)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1557)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2019-05-12 12:53:27.372
+!MESSAGE Taglib Index ZipException: C:/Users/Matth/OneDrive/Documents/Git/JSP-Servlet-/JSP_Standard_Tag_Library/tag-demo/WebContent/forEach-simple-test.jsp error in opening zip file
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 12:53:27.440
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 12:53:27.447
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 12:53:27.534
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 12:53:27.538
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:05:43.316
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:05:43.321
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:05:44.589
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:05:44.596
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:11:32.658
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:11:32.664
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2019-05-12 13:14:13.913
+!MESSAGE can not get a buffer without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not get a buffer without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.getBuffer(FileBufferModelManager.java:689)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.getModelPath(JSPTranslator.java:3274)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.writeExternal(JSPTranslator.java:3381)
+	at java.io.ObjectOutputStream.writeExternalData(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslator(JSPTranslatorPersister.java:263)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:147)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:137)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob$1.run(AbstractIndexManager.java:1559)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1557)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2019-05-12 13:14:53.875
+!MESSAGE Taglib Index ZipException: C:/Users/Matth/OneDrive/Documents/Git/JSP-Servlet-/JSP_Standard_Tag_Library/tag-demo/WebContent/forEach-student-test.jsp zip file is empty
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:14:53.943
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:14:53.948
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:14:53.952
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:14:54.036
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:14:54.041
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:14:54.045
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:16.647
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:16.653
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:16.658
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:22.406
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:22.410
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:22.414
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:29.221
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:29.225
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:29.231
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:29.303
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:29.308
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:16:29.315
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:12.942
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:12.947
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:12.952
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:15.756
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:15.760
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:15.764
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:15.895
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:15.899
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:15.904
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:18:43.663
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:19:33.571
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:19:57.147
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:19:57.167
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:23:33.148
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:24:24.321
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:26.676
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:26.680
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:26.684
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:26.742
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:26.746
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:26.750
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2019-05-12 13:25:31.196
+!MESSAGE Taglib Index ZipException: C:/Users/Matth/OneDrive/Documents/Git/JSP-Servlet-/JSP_Standard_Tag_Library/tag-demo/src/com/MattMartnick/jsp/tagdemo/Student.java error in opening zip file
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:31.292
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:31.297
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:31.302
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:31.306
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:31.357
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:31.362
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:31.367
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:25:31.373
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:15.265
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:15.272
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:15.277
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:15.284
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:15.355
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:15.360
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:15.364
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:15.368
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:19.036
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:19.044
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:19.049
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:36:19.053
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-05-12 13:38:25.081
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:38:42.385
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:38:42.390
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:38:42.394
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:38:42.398
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:28.441
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:28.441
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:28.456
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:28.456
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:28.519
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:28.519
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:28.519
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:28.535
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:35.532
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:35.532
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:35.532
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:35.547
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:35.601
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:35.601
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:35.616
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:39:35.616
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:40:43.783
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:40:43.798
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:40:43.798
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:40:43.798
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:40:58.081
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:40:58.081
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:40:58.081
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:40:58.081
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:42:18.221
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:42:18.221
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:42:18.221
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:42:18.221
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2019-05-12 13:42:54.472
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Core Exception [code 566] Problems encountered while deleting resources.
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:180)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1414)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	... 39 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1414)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not delete '/tag-demo/src/com/MattMartnick/jsp'.
+Contains: Could not delete '/tag-demo/src/com/MattMartnick/jsp'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1771)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:752)
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1402)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\Matth\OneDrive\Documents\Git\JSP-Servlet-\JSP_Standard_Tag_Library\tag-demo\src\com\MattMartnick\jsp.
+java.nio.file.DirectoryNotEmptyException: C:\Users\Matth\OneDrive\Documents\Git\JSP-Servlet-\JSP_Standard_Tag_Library\tag-demo\src\com\MattMartnick\jsp
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:256)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:140)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:154)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:118)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1771)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:752)
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1402)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.core 4 966 2019-05-12 13:42:54.472
+!MESSAGE Problems encountered while deleting resources.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1414)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not delete '/tag-demo/src/com/MattMartnick/jsp'.
+Contains: Could not delete '/tag-demo/src/com/MattMartnick/jsp'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1771)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:752)
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1402)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\Matth\OneDrive\Documents\Git\JSP-Servlet-\JSP_Standard_Tag_Library\tag-demo\src\com\MattMartnick\jsp.
+java.nio.file.DirectoryNotEmptyException: C:\Users\Matth\OneDrive\Documents\Git\JSP-Servlet-\JSP_Standard_Tag_Library\tag-demo\src\com\MattMartnick\jsp
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:256)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:140)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:154)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:118)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1771)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:752)
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1402)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 2 org.eclipse.core.resources 4 566 2019-05-12 13:42:54.472
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-12 13:42:54.472
+!MESSAGE Could not delete '/tag-demo/src/com/MattMartnick/jsp'.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-05-12 13:42:54.472
+!MESSAGE Could not delete '/tag-demo/src/com/MattMartnick/jsp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1771)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:752)
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1402)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\Matth\OneDrive\Documents\Git\JSP-Servlet-\JSP_Standard_Tag_Library\tag-demo\src\com\MattMartnick\jsp.
+java.nio.file.DirectoryNotEmptyException: C:\Users\Matth\OneDrive\Documents\Git\JSP-Servlet-\JSP_Standard_Tag_Library\tag-demo\src\com\MattMartnick\jsp
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:256)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:140)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:154)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:118)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1771)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:752)
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1402)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 4 org.eclipse.core.resources 4 273 2019-05-12 13:42:54.472
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-05-12 13:42:54.472
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 6 org.eclipse.core.filesystem 4 273 2019-05-12 13:42:54.472
+!MESSAGE Could not delete: C:\Users\Matth\OneDrive\Documents\Git\JSP-Servlet-\JSP_Standard_Tag_Library\tag-demo\src\com\MattMartnick\jsp.
+!STACK 0
+java.nio.file.DirectoryNotEmptyException: C:\Users\Matth\OneDrive\Documents\Git\JSP-Servlet-\JSP_Standard_Tag_Library\tag-demo\src\com\MattMartnick\jsp
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:256)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:140)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:154)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:118)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1771)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:752)
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1402)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.deleteResources(JavaModelOperation.java:354)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.deletePackageFragment(DeleteResourceElementsOperation.java:69)
+	at org.eclipse.jdt.internal.core.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:115)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.delete(JavaModel.java:131)
+	at org.eclipse.jdt.internal.core.PackageFragment.delete(PackageFragment.java:180)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:40)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:49)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:108)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5810)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:111)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:44:13.360
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:44:13.364
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:44:13.373
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:11.903
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:11.909
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:11.919
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:11.919
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:12.792
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:12.799
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:12.799
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:12.812
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:56.818
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:56.823
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:56.829
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:46:56.829
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:10.103
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:10.103
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:10.103
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:10.123
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:17.688
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:17.688
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:17.688
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:17.688
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:43.003
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:43.007
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:43.012
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:47:43.016
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:05.799
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:05.799
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:05.799
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:05.799
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:14.627
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:14.627
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:14.627
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:14.627
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:43.564
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:43.564
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:43.564
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:43.564
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:43.639
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:43.639
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:43.639
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:51:43.654
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:52:16.231
+!MESSAGE Invalid ZIP archive: WebContent/test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:52:16.231
+!MESSAGE Invalid ZIP archive: WebContent/forEach-simple-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:52:16.246
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:52:16.246
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:53:24.210
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:53:58.858
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:54:11.833
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:54:15.545
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:54:28.406
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:54:32.218
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:54:37.900
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:54:42.365
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:54:43.554
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:54:46.192
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 13:54:46.223
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:36:03.380
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:37:21.398
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:37:21.429
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:37:22.015
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:37:24.870
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:38:17.371
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:38:17.387
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:39:34.653
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:39:34.684
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:40:45.263
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:40:45.276
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:40:47.514
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:40:47.521
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
+
+!ENTRY org.eclipse.jst.jee 4 0 2019-05-12 15:41:15.791
+!MESSAGE src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path
+!STACK 1
+Java Model Exception: Java Model Status [src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:516)
+	at org.eclipse.jdt.internal.core.PackageFragment.getKind(PackageFragment.java:375)
+	at org.eclipse.jdt.internal.core.PackageFragment.getCompilationUnits(PackageFragment.java:298)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:511)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:527)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:501)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:492)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:457)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1739)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1727)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1560)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1536)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2257)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2147)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:290)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:153)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1006)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:950)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$9(CompletionProposalPopup.java:946)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$4.widgetDefaultSelected(CompletionProposalPopup.java:691)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2019-05-12 15:41:15.791
+!MESSAGE src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path
+
+!ENTRY org.eclipse.jst.jee 4 0 2019-05-12 15:41:15.791
+!MESSAGE src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path
+!STACK 1
+Java Model Exception: Java Model Status [src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:516)
+	at org.eclipse.jdt.internal.core.PackageFragment.getKind(PackageFragment.java:375)
+	at org.eclipse.jdt.internal.core.PackageFragment.getCompilationUnits(PackageFragment.java:298)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:511)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:527)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:501)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:492)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:457)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1739)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1727)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1560)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1536)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2257)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2147)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:290)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:153)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1006)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:950)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$9(CompletionProposalPopup.java:946)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$4.widgetDefaultSelected(CompletionProposalPopup.java:691)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2019-05-12 15:41:15.791
+!MESSAGE src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path
+
+!ENTRY org.eclipse.jst.jee 4 0 2019-05-12 15:41:15.807
+!MESSAGE src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path
+!STACK 1
+Java Model Exception: Java Model Status [src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:516)
+	at org.eclipse.jdt.internal.core.PackageFragment.getKind(PackageFragment.java:375)
+	at org.eclipse.jdt.internal.core.PackageFragment.getCompilationUnits(PackageFragment.java:298)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:511)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:527)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:501)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:492)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:457)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1739)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1727)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1560)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1536)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2257)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2147)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:290)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:153)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1006)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:950)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$9(CompletionProposalPopup.java:946)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$4.widgetDefaultSelected(CompletionProposalPopup.java:691)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2019-05-12 15:41:15.807
+!MESSAGE src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path
+
+!ENTRY org.eclipse.jst.jee 4 0 2019-05-12 15:41:15.807
+!MESSAGE src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path
+!STACK 1
+Java Model Exception: Java Model Status [src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:516)
+	at org.eclipse.jdt.internal.core.PackageFragment.getKind(PackageFragment.java:375)
+	at org.eclipse.jdt.internal.core.PackageFragment.getCompilationUnits(PackageFragment.java:298)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:511)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:527)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:501)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:492)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:457)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1739)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1727)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1560)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1536)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2257)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2147)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:290)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:153)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1006)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:950)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$9(CompletionProposalPopup.java:946)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$4.widgetDefaultSelected(CompletionProposalPopup.java:691)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2019-05-12 15:41:15.807
+!MESSAGE src/com/MattMartnick/jsp/tagdemo [in tag-demo] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-05-12 15:41:15.823
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [com.MattMartnick.jsp.tagdemo [in src/com/MattMartnick/jsp/tagdemo [in tag-demo]] does not exist]
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:180)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:436)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.runOperation(JavaModel.java:301)
+	at org.eclipse.jdt.internal.core.JavaModel.move(JavaModel.java:260)
+	at org.eclipse.jdt.internal.core.CompilationUnit.move(CompilationUnit.java:1172)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.MoveCompilationUnitChange.doPerformReorg(MoveCompilationUnitChange.java:90)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CompilationUnitReorgChange.perform(CompilationUnitReorgChange.java:68)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1006)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:950)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$9(CompletionProposalPopup.java:946)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$4.widgetDefaultSelected(CompletionProposalPopup.java:691)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-05-12 15:41:15.823
+!MESSAGE com.MattMartnick.jsp.tagdemo [in src/com/MattMartnick/jsp/tagdemo [in tag-demo]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:41:16.621
+!MESSAGE Invalid ZIP archive: WebContent/forEach-student-test.jsp [in tag-demo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-05-12 15:41:16.636
+!MESSAGE Invalid ZIP archive: src/com/MattMartnick/jsp/tagdemo/Student.java [in tag-demo]
